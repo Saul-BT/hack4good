@@ -1,0 +1,18 @@
+page-inicio {
+
+}
+
+svg {
+    width: 150px;
+    margin: 30px 0;
+}
+
+.emblema {fill: gold}
+
+.p-mal::-webkit-progress-value {
+    background-color: red;
+}
+
+.p-bien::-webkit-progress-value {
+    background-color: green;
+}

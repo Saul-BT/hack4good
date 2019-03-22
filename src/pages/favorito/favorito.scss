@@ -1,0 +1,40 @@
+page-favorito {
+
+}
+
+.favorito .scroll-content {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+div.card {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    max-height: 200px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2s);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.card[data-categoria]::before {
+    position: absolute;
+    content: "p";
+    display: inline-block;
+    background-color: #73ff73;
+    top: 44%;
+    left: 10px;
+    padding-top: 30px;
+    width: 30px;
+    border-radius: 100%;
+    line-height: 0;
+}
+
+.marcador {
+    position: sticky;
+    bottom: 8px;
+}
