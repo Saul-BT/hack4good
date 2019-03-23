@@ -10,5 +10,4 @@ export class FavoritoPage {
   // should be each tab's root Page
   constructor(public navCtrl: NavController) {
   }
-  
 }

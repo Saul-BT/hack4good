@@ -19,20 +19,30 @@ div.card {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2s);
     border-radius: 3px;
     overflow: hidden;
+    p {
+        padding: 5px 15px 0;
+    }
 }
 
 .card[data-categoria]::before {
     position: absolute;
-    content: "p";
+    content: "";
     display: inline-block;
-    background-color: #73ff73;
-    top: 44%;
+    top: 40%;
     left: 10px;
     padding-top: 30px;
     width: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
     border-radius: 100%;
     line-height: 0;
 }
+
+.card[data-categoria="deporte"]::before {background-color: #73ff73}
+.card[data-categoria="gastronomia"]::before {background-color: #fffc53}
+.card[data-categoria="museo"]::before {background-color: #e6e6e6}
+.card[data-categoria="cine"]::before {background-color: #ff8181}
+.card[data-categoria="teatro"]::before {background-color: #db4bff}
+.card[data-categoria="musica"]::before {background-color: #8bd4ff}
 
 .marcador {
     position: sticky;
