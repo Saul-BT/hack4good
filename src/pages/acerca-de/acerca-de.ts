@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { AjustesPage } from '../ajustes/ajustes';
 import { TemaPage } from '../tema/tema';
 import { IdiomaPage } from '../idioma/idioma';
+import { PreferenciasPage } from '../preferencias/preferencias';
 import { NotificacionesPage } from '../notificaciones/notificaciones';
 import { CopiaDeSeguridadPage } from '../copia-de-seguridad/copia-de-seguridad';
 
@@ -24,6 +25,9 @@ export class AcercaDePage {
   }goToIdioma(params){
     if (!params) params = {};
     this.navCtrl.push(IdiomaPage);
+  }goToPreferencias(params){
+    if (!params) params = {};
+    this.navCtrl.push(PreferenciasPage);
   }goToNotificaciones(params){
     if (!params) params = {};
     this.navCtrl.push(NotificacionesPage);

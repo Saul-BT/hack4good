@@ -9,6 +9,7 @@ import { TabsControllerPage } from '../pages/tabs-controller/tabs-controller';
 import { NotificacionesPage } from '../pages/notificaciones/notificaciones';
 import { TemaPage } from '../pages/tema/tema';
 import { IdiomaPage } from '../pages/idioma/idioma';
+import { PreferenciasPage } from '../pages/preferencias/preferencias';
 import { CopiaDeSeguridadPage } from '../pages/copia-de-seguridad/copia-de-seguridad';
 import { AcercaDePage } from '../pages/acerca-de/acerca-de';
 
@@ -26,6 +27,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NotificacionesPage,
     TemaPage,
     IdiomaPage,
+    PreferenciasPage,
     CopiaDeSeguridadPage,
     AcercaDePage
   ],
@@ -43,6 +45,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     NotificacionesPage,
     TemaPage,
     IdiomaPage,
+    PreferenciasPage,
     CopiaDeSeguridadPage,
     AcercaDePage
   ],

@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { TemaPage } from '../tema/tema';
 import { IdiomaPage } from '../idioma/idioma';
+import { PreferenciasPage } from '../preferencias/preferencias';
 import { NotificacionesPage } from '../notificaciones/notificaciones';
 import { CopiaDeSeguridadPage } from '../copia-de-seguridad/copia-de-seguridad';
 import { AcercaDePage } from '../acerca-de/acerca-de';
@@ -24,6 +25,9 @@ export class AjustesPage {
   }goToIdioma(params){
     if (!params) params = {};
     this.navCtrl.push(IdiomaPage);
+  }goToPreferencias(params){
+    if (!params) params = {};
+    this.navCtrl.push(PreferenciasPage);
   }goToNotificaciones(params){
     if (!params) params = {};
     this.navCtrl.push(NotificacionesPage);

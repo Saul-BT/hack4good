@@ -37,7 +37,7 @@ div.card {
     line-height: 0;
 }
 
-.card[data-categoria="deporte"]::before {background-color: #73ff73}
+.card[data-categoria="deporte"]::before {content:"⚽️";background-color: #73ff73}
 .card[data-categoria="gastronomia"]::before {background-color: #fffc53}
 .card[data-categoria="museo"]::before {background-color: #e6e6e6}
 .card[data-categoria="cine"]::before {background-color: #ff8181}
@@ -48,3 +48,5 @@ div.card {
     position: sticky;
     bottom: 8px;
 }
+
+ion-icon {margin-right: 5px}
